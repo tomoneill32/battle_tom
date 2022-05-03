@@ -10,7 +10,11 @@ get '/secret' do
 end
 
 get '/pudding' do
-  'for i in 1..5 do 
-    "#{i}"
-  end'
+  "test"
+end
+
+get '/cat' do
+  "<div style='border: 3px dashed red'>
+    <img src='https://i.imgur.com/jFaSxym.png'>
+   </div>"
 end

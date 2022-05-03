@@ -7,4 +7,5 @@ ruby '3.0.2'
 group :test do
   gem 'sinatra'
   gem 'webrick'
+  gem 'sinatra-contrib'
 end

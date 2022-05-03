@@ -14,7 +14,6 @@ get '/pudding' do
 end
 
 get '/cat' do
-  "<div style='border: 3px dashed red'>
-    <img src='https://i.imgur.com/jFaSxym.png'>
-   </div>"
+  @cat_name = ["Amigo", "Misty", "Almond"].sample
+  erb(:index) 
 end
